@@ -1,0 +1,7 @@
+#out {
+  height: 600px;
+  overflow-y: scroll;
+}
+#error {
+  color: red;
+}

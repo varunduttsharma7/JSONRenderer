@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <h1>JSON Renderer</h1>
+    <div class="col-md-6 left">
+      <button type="submit" class="btn btn-primary" (click)="RenderData()">
+        Render Output
+      </button>
+      <button type="submit" class="btn btn-primary" (click)="FillData()">
+        Fill Sample Data
+      </button>
+      <textarea
+        name="inp"
+        id="inp"
+        cols="80"
+        rows="30"
+        class="left"
+        [(ngModel)]="input"
+      ></textarea>
+    </div>
+    <div class="col-md-6" id="out">
+      <h3>Output: </h3><br>
+    </div>
+  </div>
+</div>
