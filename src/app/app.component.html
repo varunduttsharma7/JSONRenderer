@@ -2,12 +2,14 @@
   <div class="row">
     <h1>JSON Renderer</h1>
     <div class="col-md-6 left">
-      <button type="submit" class="btn btn-primary" (click)="RenderData()">
-        Render Output
-      </button>
-      <button type="submit" class="btn btn-primary" (click)="FillData()">
-        Fill Sample Data
-      </button>
+      <div class="btn-group">
+        <button type="submit" class="btn btn-primary" (click)="FillData()">
+          Fill Sample Data
+        </button>
+        <button type="submit" class="btn btn-primary" (click)="RenderData()">
+          Render Output
+        </button>
+      </div>
       <textarea
         name="inp"
         id="inp"
